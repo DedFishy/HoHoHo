@@ -60,4 +60,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
+    background: rgb(255,0,0);
+    background: linear-gradient(137deg, rgba(255,0,0,1) 0%, rgba(255,82,0,1) 15%, rgba(255,178,0,1) 31%, rgba(0,255,14,1) 48%, rgba(39,216,255,1) 65%, rgba(13,0,255,1) 83%, rgba(147,0,255,1) 100%); 
+    background-clip: text;
+    color: transparent;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 2px;
+    font-size: 4em;
+    font-variant: small-caps;
+    -webkit-text-stroke: 2px black;
 }
